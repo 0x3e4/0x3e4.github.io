@@ -135,6 +135,9 @@ a.scrollup:hover {
     width: 100%;
     z-index: 99;
 }
+#header-bg {
+    position: relative;
+}
 .header-text img {
     display: block;
     height: auto;
@@ -154,7 +157,7 @@ a.scrollup:hover {
     font-weight: 800;
     margin-bottom: 10px;
 }
-.caption-slide h3 {
+.header-text h3 {
     font-size: 40px;
     font-weight: 400;
     margin-bottom: 40px;

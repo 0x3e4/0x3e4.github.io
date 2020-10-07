@@ -125,3 +125,37 @@ a.scrollup i {
 a.scrollup:hover {
     opacity: 1;
 }
+
+/*  Header
+
+/* Logo */
+#logo {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+}
+.header-text img {
+    display: block;
+    height: auto;
+    float: left;
+    width: 100%;
+    border: 0;
+}
+.header-text {
+    position: absolute;
+    top: 280px;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+}
+.header-text h1 {
+    font-size: 110px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.caption-slide h3 {
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}

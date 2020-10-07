@@ -1,1 +1,127 @@
+body {
+    font: 400 16px/28px 'Ubuntu', Arial, sans-serif;
+    color: #ffffff;
+    overflow-x: hidden;
+    background: #0b0b0b !important;
+}
+img {
+    max-width: 100%;
+}
+a, 
+a:active {
+    -webkit-transition: color 1s;
+    -moz-transition: color 1s;
+    -ms-transition: color 1s;
+    -o-transition: color 1s;
+    transition: color 1s;
+}
+a:hover, a:focus {
+    text-decoration: none;
+}
+video { 
+    width: 100%; 
+    margin: 0;
+}
 
+/* Font Weight */
+span.extrallight {
+    font-weight: 100;
+}
+span.thin {
+    font-weight: 200;
+}
+span.light {
+    font-weight: 300;
+}
+span.medium {
+    font-weight: 500;
+}
+span.semibold {
+    font-weight: 600;
+}
+span.bold {
+    font-weight: 700;
+}
+span.extrabold {
+    font-weight: 800;
+}
+span.heavy {
+    font-weight: 900;
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 400;
+    margin: 0 0 30px; 
+}
+h1 {
+    font-size: 70px;
+}
+h2 {
+    font-size: 60px;
+}
+h3 {
+    font-size: 36px;
+}
+h4 {
+    font-size: 22px;
+}
+h5 {
+    font-size: 20px;
+}
+h6 {
+    font-size: 14px;
+}
+
+/* section title */
+.section-title {
+    margin: 80px 0 60px; 
+    text-align: center;
+}
+
+.section-title h1 {
+    color: #f2b84b;
+    font-size: 50px;
+    margin: 0 0 20px;
+    font-family: 'David Libre';
+}
+.section-title h3 {
+    font-weight: 300;
+    display: inline-block;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+/* Scroll Up */
+.scrollup {
+    position: fixed;
+    right: 30px;
+    bottom: 10%;
+    width: 50px;
+    height: 50px;
+    z-index: 99;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 28px;
+    line-height: 1.7;
+    color: #fff;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    opacity: 0.7;
+    display: none;
+}
+a.scrollup i {
+    color: #fff;
+}
+a.scrollup:hover {
+    opacity: 1;
+}

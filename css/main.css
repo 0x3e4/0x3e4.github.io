@@ -135,9 +135,6 @@ a.scrollup:hover {
     width: 100%;
     z-index: 99;
 }
-.welcome {
-    position: relative;
-}
 .welcome img {
     display: block;
     height: auto;
@@ -145,16 +142,19 @@ a.scrollup:hover {
     width: 100%;
 	z-index: -1;
     border: 0;
-	-webkit-filter: grayscale(1) blur(5px);
-	filter: grayscale(1) blur(5px);
+	-webkit-filter: grayscale(1) blur(3px);
+	filter: grayscale(1) blur(3px);
+	position: relative;
 }
 .welcome h1 {
-    font-size: 110px;
-    font-weight: 800;
+    font-size: 90px;
+    font-weight: 600;
     margin-bottom: 10px;
+	position: absolute;
+	font-family: 'David Libre';
 }
 .welcome h3 {
-    font-size: 40px;
     font-weight: 400;
     margin-bottom: 40px;
+	position: absolute;
 }

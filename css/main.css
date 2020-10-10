@@ -16,7 +16,8 @@ a:active {
     transition: color 1s;
 }
 a:hover, a:focus {
-    text-decoration: none;
+	color: #f2b84b; 
+    text-decoration: underline;
 }
 video { 
     width: 100%; 
@@ -200,6 +201,11 @@ header {
 .map-frame {
 	width: 100%;
     float: left;
+}
+#mapsource {
+	pointer-events: none;
+	-webkit-filter: grayscale(1);
+	filter: grayscale(1);
 }
 
 /* Menu */

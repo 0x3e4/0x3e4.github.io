@@ -16,8 +16,8 @@ a:active {
     transition: color 1s;
 }
 a:hover, a:focus {
-	color: #f2b84b; 
-    text-decoration: underline;
+	color: #f2b84b !important;
+    text-decoration: underline !important;
 }
 video { 
     width: 100%; 
@@ -206,7 +206,6 @@ header {
     float: left;
 }
 #mapsource {
-	pointer-events: none;
 	-webkit-filter: grayscale(1);
 	filter: grayscale(1);
 }
@@ -226,6 +225,11 @@ header {
 }
 .stars img {
 	width: 10px;
+}
+
+/* Contact */
+.privacy-text {
+	line-height: 1rem;
 }
 
 /* Footer */

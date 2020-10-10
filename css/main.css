@@ -219,7 +219,7 @@ a.scrollup:hover {
 		margin-bottom: 14px;
 	}
 }
-@media (max-width: 510px) {
+@media (max-width: 525px) {
 	.welcome-text h3 {
 		display: none;
 	}

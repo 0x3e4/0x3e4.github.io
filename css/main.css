@@ -188,7 +188,7 @@ header {
     color: #f2b84b;
 }
 #navigation {
-	position: fixed;
+	width: 100%;
 	-webkit-box-shadow: 0 8px 6px -6px black;
 	-moz-box-shadow: 0 8px 6px -6px black;
 	box-shadow: 0 8px 6px -6px black;

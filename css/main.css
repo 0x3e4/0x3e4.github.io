@@ -305,8 +305,8 @@ header {
 }
 
 /* Contact */
-#privacy-text {
-	line-height: 1rem !important;
+.form-check-label {
+	line-height: 1.3rem !important;
 }
 
 /* Footer */

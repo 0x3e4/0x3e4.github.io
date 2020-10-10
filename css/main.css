@@ -126,7 +126,7 @@ a.scrollup:hover {
     opacity: 1;
 }
 
-/*  Header
+/*  Header */
 
 /* Logo */
 #logo {
@@ -147,19 +147,47 @@ a.scrollup:hover {
 	position: relative;
 }
 .welcome-text {
-	text-align: center !important;
+	text-align: left !important;
+	position: absolute;
+	margin-top: 15rem !important;
+	margin-left: 500px;
+	padding-left: 10px;
+	border-left-style: solid;
+	border-left-width: 20px;
+	width: auto;
+	background: black;
+	color: #f2b84b;
 }
 .welcome-text h1 {
     font-size: 90px;
     font-weight: 600;
     margin-bottom: 10px;
-
 	font-family: 'David Libre';
 	color: #f2b84b;
 }
 .welcome-text h3 {
     font-weight: 400;
     margin-bottom: 40px;
-	position: absolute;
+	font-family: 'Ubuntu';
 	color: #f2b84b;
+}
+
+/* Navbar */
+
+nav {
+	font-family: 'David Libre';
+}
+#navigation {
+	overflow: hidden;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.sticky + .content {
+  padding-top: 60px;
+}
+.bg-dark {
+	background-color: black !important;
 }

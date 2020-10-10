@@ -180,9 +180,6 @@ a.scrollup:hover {
 	-webkit-box-shadow: 0 8px 6px -6px black;
 	-moz-box-shadow: 0 8px 6px -6px black;
 	box-shadow: 0 8px 6px -6px black;
-    position: absolute;
-    width: 100%;
-    left: 0;
 }
 .navbar-custom, .navbar-custom .navbar-text {
     color: rgba(255,255,255);
@@ -193,4 +190,9 @@ a.scrollup:hover {
 .navbar-custom .nav-item.active .nav-link,
 .navbar-custom .nav-item:hover .nav-link {
     color: white;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }

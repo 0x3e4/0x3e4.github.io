@@ -136,6 +136,7 @@ a.scrollup:hover {
 
 /*  Header */
 .welcome-img {
+    pointer-events: none;
     display: block;
     height: auto;
     float: left;

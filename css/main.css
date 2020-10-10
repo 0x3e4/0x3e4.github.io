@@ -150,7 +150,6 @@ a.scrollup:hover {
 	text-align: left !important;
 	position: absolute;
 	margin-top: 15rem !important;
-	margin-left: 500px;
 	padding-left: 10px;
 	border-left-style: solid;
 	border-left-width: 20px;
@@ -167,7 +166,7 @@ a.scrollup:hover {
 }
 .welcome-text h3 {
     font-weight: 400;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 	font-family: 'Ubuntu';
 	color: #f2b84b;
 }
@@ -187,7 +186,4 @@ nav {
 }
 .sticky + .content {
   padding-top: 60px;
-}
-.bg-dark {
-	background-color: black !important;
 }

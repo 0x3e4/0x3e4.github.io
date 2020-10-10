@@ -249,8 +249,10 @@ header {
 .navbar-custom .nav-item:hover .nav-link {
     color: #f2b84b;
 }
-#navbarMenu {
-	margin-top: 1rem;
+@media (max-width: 991px) {
+	#navbarMenu {
+		margin-top: 1rem;
+	}
 }
 #navigation {
 	width: 100%;

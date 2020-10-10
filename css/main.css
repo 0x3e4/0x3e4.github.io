@@ -218,12 +218,6 @@ header {
 .menu-img:hover {
 	-webkit-filter: grayscale(1);
 	filter: grayscale(1);
-    -webkit-transition: all 1 ease;
-    -moz-transition: all 1 ease;
-    -o-transition: all 1 ease;
-    transition: all 1 ease;
-    -webkit-transition-delay: 1;
-    transition-delay: 1;
 }
 
 /* Reviews */

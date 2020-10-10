@@ -146,7 +146,7 @@ a.scrollup:hover {
     overflow-x:hidden;
     overflow-y:hidden;
 }
-@media (max-width: 767.98px) {
+@media (max-width: 900px) {
 	.welcome-img {
 		font-size: 60px;
 		font-weight: 400;
@@ -167,7 +167,7 @@ a.scrollup:hover {
 	background: black;
 	color: #f2b84b;
 }
-@media (max-width: 767.98px) {
+@media (max-width: 900px) {
 	.welcome-text {
 		margin-top: 10rem !important;
 		padding-left: 6px;
@@ -183,7 +183,7 @@ a.scrollup:hover {
 	font-family: 'David Libre';
 	color: #f2b84b;
 }
-@media (max-width: 767.98px) {
+@media (max-width: 900px) {
 	.welcome-text h1 {
 		font-size: 60px;
 		font-weight: 400;
@@ -196,7 +196,7 @@ a.scrollup:hover {
 	font-family: 'Ubuntu';
 	color: white;
 }
-@media (max-width: 767.98px) {
+@media (max-width: 900px) {
 	.welcome-text h3 {
 		font-weight: 266;
 		margin-bottom: 14px;
@@ -263,7 +263,7 @@ header {
 
 /* Contact */
 #privacy-text {
-	line-height: 1rem;
+	line-height: 1rem !important;
 }
 
 /* Footer */

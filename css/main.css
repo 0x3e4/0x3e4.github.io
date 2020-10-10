@@ -219,6 +219,11 @@ a.scrollup:hover {
 		margin-bottom: 14px;
 	}
 }
+@media (max-width: 510px) {
+	.welcome-text h3 {
+		display: none;
+	}
+}
 
 /* Header */
 header {

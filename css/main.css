@@ -182,10 +182,10 @@ a.scrollup:hover {
 	box-shadow: 0 8px 6px -6px black;
 }
 .navbar-custom, .navbar-custom .navbar-text {
-    color: rgba(255,255,255);
+    color: rgba(255,255,255,.3);
 }
 .navbar-custom .navbar-nav .nav-link {
-    color: rgba(255,255,255,.5);
+    color: rgba(255,255,255);
 }
 .navbar-custom .nav-item.active .nav-link,
 .navbar-custom .nav-item:hover .nav-link {

@@ -177,9 +177,6 @@ a.scrollup:hover {
 
 .navbar-custom {
     background-color: #0b0b0b;
-	-webkit-box-shadow: 0 8px 6px -6px black;
-	-moz-box-shadow: 0 8px 6px -6px black;
-	box-shadow: 0 8px 6px -6px black;
 }
 .navbar-custom, .navbar-custom .navbar-text {
     color: rgba(255,255,255,.3);
@@ -193,12 +190,15 @@ a.scrollup:hover {
 }
 #navigation {
 	overflow: hidden;
+	-webkit-box-shadow: 0 8px 6px -6px black;
+	-moz-box-shadow: 0 8px 6px -6px black;
+	box-shadow: 0 8px 6px -6px black;
 }
 .sticky {
 	position: fixed;
 	top: 0;
 	width: 100%;
 }
-.sticky + .home {
+.sticky + #home {
   padding-top: 60px;
 }

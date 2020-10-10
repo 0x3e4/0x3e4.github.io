@@ -154,6 +154,13 @@ a.scrollup:hover {
 		margin-bottom: 6px;
 	}
 }
+@media (max-width: 625px) {
+	.welcome-img {
+		font-size: 40px;
+		font-weight: 200;
+		margin-bottom: 3px;
+	}
+}
 .welcome-text {
 	text-align: left !important;
 	position: absolute;
@@ -175,6 +182,15 @@ a.scrollup:hover {
 		padding-right: 6px;
 		border-left-width: 14px;
 		border-right-width: 14px;
+	}
+}
+@media (max-width: 625px) {
+	.welcome-text {
+		margin-top: 5rem !important;
+		padding-left: 3px;
+		padding-right: 3px;
+		border-left-width: 8px;
+		border-right-width: 8px;
 	}
 }
 .welcome-text h1 {

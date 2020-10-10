@@ -1,5 +1,5 @@
 body {
-    font: 400 16px/28px 'Ubuntu', Arial, sans-serif;
+    font: 400 16px/28px 'Ubuntu' !important;
     color: #ffffff !important;
     overflow-x: hidden;
     background: #0b0b0b !important;
@@ -128,7 +128,6 @@ a.scrollup:hover {
 
 /*  Header */
 
-/* Logo */
 #logo {
     position: absolute;
     left: 0;
@@ -171,29 +170,26 @@ a.scrollup:hover {
     font-weight: 400;
     margin-bottom: 20px;
 	font-family: 'Ubuntu';
-	color: #f2b84b;
+	color: white;
 }
 
 /* Navbar */
 
-nav {
-	font-family: 'David Libre';
-}
-#navigation {
-	overflow: hidden;
-}
 .navbar-custom {
-    background-color: black;
+    background-color: #0b0b0b;
+	-webkit-box-shadow: 0 8px 6px -6px black;
+	-moz-box-shadow: 0 8px 6px -6px black;
+	box-shadow: 0 8px 6px -6px black;
+    position: absolute;
+    width: 100%;
+    left: 0;
 }
-/* change the brand and text color */
 .navbar-custom, .navbar-custom .navbar-text {
     color: rgba(255,255,255);
 }
-/* change the link color */
 .navbar-custom .navbar-nav .nav-link {
     color: rgba(255,255,255,.5);
 }
-/* change the color of active or hovered links */
 .navbar-custom .nav-item.active .nav-link,
 .navbar-custom .nav-item:hover .nav-link {
     color: white;

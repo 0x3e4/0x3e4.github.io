@@ -127,12 +127,6 @@ a.scrollup:hover {
 }
 
 /*  Header */
-#logo {
-    position: absolute;
-    left: 0;
-    width: 100%;
-    z-index: 99;
-}
 .welcome-img {
     display: block;
     height: auto;
@@ -169,10 +163,12 @@ a.scrollup:hover {
 	font-family: 'Ubuntu';
 	color: white;
 }
+
 /* Header */
 header {
 	overflow: auto;	
 }
+
 /* Navbar */
 .navbar-custom {
     background-color: #0b0b0b;
@@ -194,4 +190,11 @@ header {
 	box-shadow: 0 8px 6px -6px black;
 	position: fixed;
 	z-index: 10;
+}
+
+/* Menu */
+#menu.img {
+    height: 300px;
+	-webkit-filter: grayscale(1) blur(3px);
+	filter: grayscale(1) blur(3px);
 }

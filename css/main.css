@@ -1,6 +1,6 @@
 body {
     font: 400 16px/28px 'Ubuntu', Arial, sans-serif;
-    color: #ffffff;
+    color: #ffffff !important;
     overflow-x: hidden;
     background: #0b0b0b !important;
 }
@@ -153,6 +153,8 @@ a.scrollup:hover {
 	padding-left: 10px;
 	border-left-style: solid;
 	border-left-width: 20px;
+	border-right-style: solid;
+	border-right-width: 20px;
 	width: auto;
 	background: black;
 	color: #f2b84b;

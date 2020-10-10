@@ -159,10 +159,10 @@
 
 		<section id="menu" class="pb-5 text-center">
 			<div class="container">
-				<div class="col-12 section-title">
-					<h1>Menu</h1>
-				</div>
 				<div class="row">
+					<div class="col-lg-12 section-title">
+						<h1>Menu</h1>
+					</div>
 					<div class="col-lg-6 col-md-12">
 						<a href="pdf/food.pdf" target="_blank"><img class="menu-img" src="img/menu-food.jpg"/></a>
 					</div>
@@ -239,19 +239,24 @@
 										<input tabindex="3" type="tel" class="form-control" name="phone" id="phone" placeholder="Your phone">
 									</div>
 								</div>
-								<div class="col-md-6">
+								<div class="col-md-3">
 									<div class="form-group">
-									    <input tabindex="4" type="date" class="form-control" name="date" id="date" placeholder="Date & Time">
+									    <input tabindex="4" type="date" class="form-control" name="date" id="date" placeholder="Time">
+									</div>
+								</div>
+								<div class="col-md-3">
+									<div class="form-group">
+									    <input tabindex="5" type="time" class="form-control" name="time" id="time" placeholder="Time">
 									</div>
 								</div>
 								<div class="col-md-6">
 									<div class="form-group">
-										<input tabindex="5" type="text" class="form-control" name="person" id="person" placeholder="How many person">
+										<input tabindex="6" type="text" class="form-control" name="person" id="person" placeholder="How many person">
 									</div>
 								</div>
 								<div class="col-md-6">
 									<div class="form-check">
-										<input class="form-check-input" type="checkbox" value="" id="PrivacyCheck">
+										<input tabindex="7" class="form-check-input" type="checkbox" value="" id="PrivacyCheck">
 										<label class="form-check-label" for="PrivacyCheck">
 											<span id="privacy-text">Yes, i agree that Cooper's No1 stores my reservation data and can contact me for details of my reservation. <a href="privacy.html" target="_blank">Privacy policy</a></span>
 										</label>
@@ -259,7 +264,7 @@
 								</div>
 								<div class="col-12">
 									<div class="form-group">
-										<textarea tabindex="6" class="form-control" name="your_message" id="your_message" rows="8" placeholder="Your message"></textarea>
+										<textarea tabindex="8" class="form-control" name="your_message" id="your_message" rows="8" placeholder="Your message"></textarea>
 									</div>
 									<div class="button">
 										<input type="hidden" id="sendContac" name="sendContact" value="send" />

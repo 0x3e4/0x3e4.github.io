@@ -211,7 +211,12 @@ header {
 
 /* Navbar */
 .navbar-custom {
-    background-color: #0b0b0b;
+    background-color: #0b0b0b;	
+}
+@media (max-width: 991px) {
+	.navbar-custom {
+	    padding: .5rem 1rem 1rem !important;
+	}
 }
 .navbar-custom, .navbar-custom .navbar-text {
     color: rgba(255,255,255);

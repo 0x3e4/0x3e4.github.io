@@ -231,27 +231,27 @@ header {
 	position: fixed;
 	z-index: 10;
 }
-.absolute-toggle {
-  position: absolute;
-  left: 15px;
-  top: 5px; }
-  .absolute-toggle .burger-lines {
-    width: 30px;
-    display: inline-block;
-    height: 2px;
-    background: #FFF;
-    position: relative; }
-    .absolute-toggle .burger-lines:before, .absolute-toggle .burger-lines:after {
-      position: absolute;
-      height: 2px;
-      content: "";
-      background: #FFF;
-      width: 100%;
-      left: 0; }
-    .absolute-toggle .burger-lines:before {
-      top: -10px; }
-    .absolute-toggle .burger-lines:after {
-      bottom: -10px; }
+.absolute-toggle .burger-lines {
+	width: 30px;
+	display: inline-block;
+	height: 2px;
+	background: #FFF;
+	position: relative;
+}
+.absolute-toggle .burger-lines:before, .absolute-toggle .burger-lines:after {
+	position: absolute;
+	height: 2px;
+	content: "";
+	background: #FFF;
+	width: 100%;
+	left: 0; 
+}
+.absolute-toggle .burger-lines:before {
+	top: -10px; 
+}
+.absolute-toggle .burger-lines:after {
+      	bottom: -10px; 
+}
 
 /* Map */
 #map {

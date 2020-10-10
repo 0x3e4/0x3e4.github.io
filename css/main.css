@@ -191,8 +191,14 @@ a.scrollup:hover {
 .navbar-custom .nav-item:hover .nav-link {
     color: white;
 }
+#navigation {
+	overflow: hidden;
+}
 .sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+.sticky + .home {
+  padding-top: 60px;
 }
